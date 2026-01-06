@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html,css,網頁,JS,JavaScript">
+    <meta name="description" content="Here is my page.">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="author" content="Roseline">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--字形-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Funnel+Display:wght@300..800&family=LXGW+WenKai+Mono+TC&family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+    <!--icon19:20-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>WEB PAGE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index"><img src="img/fu.jpg" alt="logo" width="120"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">富士山旅遊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://fuji-san.info/zh-tw/index.html" target="_blank">天氣預報</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.gltjp.com/zh-hant/article/item/21018/" target="_blank">交通路線</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            景點介紹</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="1.html">河口湖</a></li>
+                                <li><a class="dropdown-item" href="2.html">大石公園</a></li>
+                                <li><a class="dropdown-item" href="3.html">忍野八海</a></li>
+                                <li><a class="dropdown-item" href="4.html">富岳風穴 & 鳴澤冰穴</a></li>
+                                <li><a class="dropdown-item" href="5.html">富士山全景纜車(天上山公園)</a></li>
+                                <!--<li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">聯絡我們</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="intro" class="hero"style="background: linear-gradient(45deg, rgba(20, 40, 80, 0.7)20%, transparent),
+        url(img/fu_home.jpg) no-repeat center;background-size: cover;">
+        <div class="container">
+            <div class="col-12 col-md-6">
+                <h1 class="display-5 text-light fw-medium">富士山</h1>
+                <p class="lead text-light mt-2">是日本最高峰（海拔3776 公尺），以其優美對稱的錐形山體聞名，是日本的國家象徵，也是世界文化遺產。<br>它是一座活火山，橫跨山梨與靜岡兩縣，自古被視為聖山，與信仰及藝術（如浮世繪）密不可分。 每年夏季開放登山，吸引眾多遊客登頂觀賞日出，周邊的富士五湖和景點亦是熱門旅遊地。</p>
+                <a href="https://www.japan.travel/tw/fuji-guide/mt-fuji-more-than-a-mountain/" class="btn rounded-4">開始探索</a>
+            </div>
+        </div>
+    </section>
+    <section id="second">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h3 class="text-center">在日本的中心，有一座山</h3>
+                    <div class="row justify-content-around align-items-center">
+                        <div class="col-md-6">
+                            <img src="img/fu_second.jpg" alt="">
+                        </div>
+                    <div class="col-md-6">
+                        <p class="lead mb-5">本站將帶您深入富士山麓，從必訪的經典秘境、道地的山梨縣美食，到詳盡的交通與住宿攻略，我們為您準備好了一切。
+                        翻開這篇旅程，讓我們一起走進富士山的四季之美，遇見那份觸動心靈的藍與白。</p>
+                        <ul>
+                            <li class="my-3">春： 河口湖櫻花季與富士芝櫻祭</li>
+                            <li class="my-3">夏： 紫色薰衣草與 7-9 月的登山體驗</li>
+                            <li class="my-3">秋： 楓葉迴廊的火紅盛宴</li>
+                            <li class="my-3">冬： 清澈天空下的雪頂富士與溫泉體驗</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section id="latest">
+        <div class="container">
+            <div class="row text-center">
+                <h3>推薦方案</h3>
+                <div class="col-md-4 text-left">
+                    <div class="outer">
+                        <a href="#">
+                            <div class="upper">
+                                <img src="img/sec_1.jpg" alt="">
+                                <div class="innertext">
+                                    <span class="text-light fw-semibold">優惠限時中</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="lower">
+                            <h3>喜鴻【東京櫻花迪士尼５日】</h3>
+                            <p><i class="fa-solid fa-earth-asia" style="color: #4277bd;"></i>迪士尼、敘敘苑燒肉、橫濱百選櫻花、箱根富士遊船、螃蟹溫泉</p>
+                            <p><i class="fa-solid fa-coins" style="color:#4277bd;"></i>39,900</p>
+                            <a href="https://www.besttour.com.tw/itinerary/TYO05BR260320DF?utm_source=google&utm_medium=cpc&utm_campaign=21132026153&utm_content=163049281849&fc=mk&gad_source=1&gad_campaignid=21132026153&gbraid=0AAAAA9fBBaCHY_rU6ccSZLJNsnZn27t7T&gclid=Cj0KCQiAgvPKBhCxARIsAOlK_Ep_soQVhErjNHo4Bik_NdFF9hhkNAkCC6nszHt5043sw3ytrI4NxRUaAprpEALw_wcBhttps://www.besttour.com.tw/itinerary/TYO05BR260320DF?utm_source=google&utm_medium=cpc&utm_campaign=21132026153&utm_content=163049281849&fc=mk&gad_source=1&gad_campaignid=21132026153&gbraid=0AAAAA9fBBaCHY_rU6ccSZLJNsnZn27t7T&gclid=Cj0KCQiAgvPKBhCxARIsAOlK_Ep_soQVhErjNHo4Bik_NdFF9hhkNAkCC6nszHt5043sw3ytrI4NxRUaAprpEALw_wcB" class="btn rounded-4">了解詳情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="outer">
+                        <a href="#">
+                            <div class="upper">
+                                <img src="img/fu.jpg" alt="">
+                                <div class="innertext">
+                                    <span class="text-light fw-semibold">優惠限時中</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="lower">
+                            <h3>1123</h3>
+                            <p><i class="fa-solid fa-earth-asia" style="color: #4277bd;"></i>地點</p>
+                            <p><i class="fa-solid fa-coins" style="color: #4277bd;"></i>30,000</p>
+                            <button class="btn mt-2">了解更多</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="outer">
+                        <a href="#">
+                            <div class="upper">
+                                <img src="img/fu.jpg" alt="">
+                                <div class="innertext">
+                                    <span class="text-light fw-semibold">優惠限時中</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="lower">
+                            <h3>1123</h3>
+                            <p><i class="fa-solid fa-earth-asia" style="color: #4277bd;"></i>地點</p>
+                            <p><i class="fa-solid fa-coins" style="color: #4277bd;"></i>30,000</p>
+                            <button class="btn mt-2">了解更多</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Email-->
+    <section id="email">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h3>訂閱我們</h3>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <p>可獲得最新旅遊資訊</p>
+                <div class="input-group input-group-lg">
+                    <input type="text" clas="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"
+                        placeholder="請輸入Email">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-light py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+                <img src="img/fu.jpg" alt="" width="240">
+                <p>在富士山下，與最純淨的自己相遇。</p>
+            </div>
+            <div class="col-md-4">
+               <h4>網站地圖</h4>
+              <ul>
+                <li><a href="#">首頁</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">最新消息</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>聯絡我們</h4>
+                <p>高雄市美麗區玫瑰大道1號<br>
+                Phone: 0912-123-456<br>
+                Email: <a href="mailto:wendy19900128@gmail.com">123456@mail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
